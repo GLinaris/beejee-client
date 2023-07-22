@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "baseUrl": "./src",
+        "jsx": "react",
+        "paths": {
+            "actions": [
+                "src/actions"
+            ],
+            "components": [
+                "src/components"
+            ],
+            "reducers": [
+                "src/reducers"
+            ],
+            "routes": [
+                "src/routes"
+            ],
+            "utils": [
+                "src/utils"
+            ],
+            "pages": [
+                "src/pages"
+            ],
+            "layout": [
+                "src/layout"
+            ],
+            "hoc": [
+                "src/hoc"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*",
+        "build"
+    ]
+}
